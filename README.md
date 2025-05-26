@@ -1,30 +1,23 @@
-# Car-detection-using-IP
-A simple computer vision project that detects cars in images using Haar cascade classifiers with OpenCV. Includes image processing, visual output, and modular detection logic.
-# 🚗 Car Detection using Image Processing
+# 🚗 Car Detection using MATLAB
 
-This project demonstrates how to detect cars in images using traditional computer vision techniques with OpenCV.
+This project uses image processing techniques in MATLAB to detect cars in input images. The logic is implemented in a single `.m` script.
 
 ## 🔍 Features
-- Haar cascade car detection
-- Frame-by-frame analysis
-- Output image with bounding boxes
+- Image pre-processing
+- Object detection using MATLAB built-in functions
+- Annotated output images
 
-## 🛠️ Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Jupyter Notebook
+## 🛠 Technologies Used
+- MATLAB R2023a (or compatible version)
+- Image Processing Toolbox
 
 ## 📁 Project Structure
-- `notebooks/`: Exploratory notebooks and visual outputs
-- `src/`: Source code for car detection
-- `images/`: Sample input and detection output images
-
-## 📷 Sample Output
-![Detection Result](images/detected_output.jpg)
+- `src/Assignment_291755.m`: Main script file
+- `images/`: Input and output images
+- `README.md`: Project documentation
+- `requirements.txt`: Software/toolbox dependencies
 
 ## ▶️ How to Run
-1. Clone this repo  
-2. Install dependencies  
-   ```bash
-   pip install -r requirements.txt
+1. Open `Assignment_291755.m` in MATLAB
+2. Make sure required images are placed in the `images/` folder
+3. Run the script to see detection output
