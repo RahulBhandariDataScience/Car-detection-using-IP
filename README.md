@@ -18,6 +18,6 @@ This project uses image processing techniques in MATLAB to detect cars in input 
 - `requirements.txt`: Software/toolbox dependencies
 
 ## ▶️ How to Run
-1. Open `Assignment_291755.m` in MATLAB
+1. Open `Car_Detection_Basic.m` in MATLAB
 2. Make sure required images are placed in the `images/` folder
 3. Run the script to see detection output
